@@ -23,10 +23,6 @@ The key finding is that total reported crime volume alone does not fully capture
 
 ## SQL Workflow
 
-The SQL notebook supports the analysis using SQL queries. It includes:
+The SQL notebook serves as a validation and supporting layer for the Python analysis. I used the City of Chicago API to reload the crime and socioeconomic datasets, performed basic cleaning, and stored the cleaned data in a SQLite database. The crime data was aggregated from incident-level records to Chicago’s 77 community areas and then joined with socioeconomic indicators.
 
-- Table validation
-- Community-level crime summaries
-- Joins between crime and socioeconomic data
-- Filtering neighborhoods by crime and hardship conditions
-- Ranking communities by total crimes and violent crime share
+The SQL queries validate the data structure, summarize community-level crime profiles, and identify communities with different combinations of total crime volume, violent crime share, and hardship. These results support the main Python findings: reported crime is concentrated across communities, total crime volume and violent crime share capture different types of risk, and socioeconomic hardship is more closely related to crime composition than to raw crime counts alone.
