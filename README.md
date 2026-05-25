@@ -4,7 +4,7 @@ This project analyzes reported crime patterns across Chicago community areas fro
 ## Files
 
 - `Final_Project.ipynb`: Python notebook for data loading, cleaning, merging, EDA, and modeling
-- `SQL_Project.ipynb`: SQL notebook for database-style queries and supporting analysis
+- `SQL.ipynb`: SQL notebook for database-style queries and supporting analysis
 - `README.md`: Project overview
 
 ## Data
